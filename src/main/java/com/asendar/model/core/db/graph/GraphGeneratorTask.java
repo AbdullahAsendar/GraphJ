@@ -78,8 +78,14 @@ public class GraphGeneratorTask extends Task<Void> {
 			try (Transaction tx = graphDb.beginTx()) {
 
 				for (Table table : tables) {
+					
+					if (selectionMap.get(table))
+						continue;
+
 
 					updateMessage("Mapping table : " + table.getFullName());
+					
+
 
 					nodes_map.put(table, new ArrayList<>());
 
