@@ -11,6 +11,12 @@
 # GraphJ
 A tool that reads a provided MySQL database and converts it to Neo4J graph database.
 
+## Demo Video
+
+<a style="float:right" href="https://youtu.be/Trh9YuNlcao" target="_blank">
+  <img alt="Demo Video" src="https://github.com/AbdullahAsendar/GraphJ/blob/master/src/main/resources/images/GraphJ_screen_shot.png" />
+</a>
+
 ## Prerequisites
 
 In order to run GraphJ, you need to install:
@@ -40,7 +46,6 @@ MYSQL_USER      | String        | User name of a MySQL user                    |
 MYSQL_PASS      | String        | Password of the MySQL user                   | root
 NEO4J_DB        | String        | Path to Neo4J database                       | null
 QUERY_LIMIT     | Integer       | The limitation on the MySQL queries          | 1000
-
 
 
 
